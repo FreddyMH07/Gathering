@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFC94A"/>
+      <stop offset="1" stop-color="#FF9A1A"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+    <style>
+      .label{ font: 700 64px 'Poppins', Arial, sans-serif; fill:#7a431a }
+      .sub{ font: 600 24px 'Poppins', Arial, sans-serif; fill:#1b4f38 }
+      .stroke{ stroke:#1b4f38; stroke-width:10; fill:none; stroke-linecap:round; stroke-linejoin:round }
+    </style>
+  </defs>
+
+  <!-- DOORPRIZE label -->
+  <g transform="translate(800,120)">
+    <path d="M-380,0 Q0,-100 380,0 L360,70 Q0,-20 -360,70 Z" fill="url(#gold)" filter="url(#softShadow)"/>
+    <text x="0" y="20" text-anchor="middle" class="label" fill="#5c340f">DOORPRIZE</text>
+  </g>
+
+  <!-- Group all items centered -->
+  <g transform="translate(800,490)">
+    <!-- Umbrella (blue/white) -->
+    <g transform="translate(390,-220) rotate(-8)">
+      <path d="M0,0 a230,160 0 0,1 460,0 L0,0 Z" fill="#1f6edb"/>
+      <path d="M115,0 a115,80 0 0,1 230,0 L115,0 Z" fill="#e8f1ff"/>
+      <path d="M230,-160 v260" stroke="#0f3b99" stroke-width="10"/>
+      <path d="M230,100 q-10,60 40,90" class="stroke"/>
+    </g>
+
+    <!-- Bike (red) -->
+    <g transform="translate(-100,110)">
+      <circle cx="0" cy="0" r="120" stroke="#222" stroke-width="14" fill="none"/>
+      <circle cx="420" cy="0" r="120" stroke="#222" stroke-width="14" fill="none"/>
+      <path d="M0,0 L170,-120 L260,-20 L420,0" class="stroke"/>
+      <path d="M170,-120 L240,-220" class="stroke"/>
+      <path d="M240,-220 L300,-220" class="stroke"/>
+      <path d="M260,-20 L160,0" class="stroke"/>
+      <path d="M300,-220 L370,-240" class="stroke"/>
+      <circle cx="170" cy="-120" r="16" fill="#222"/>
+      <g transform="translate(280, -200)">
+        <rect x="-30" y="-18" rx="10" ry="10" width="60" height="22" fill="#222"/>
+        <rect x="10" y="-40" width="10" height="25" fill="#222"/>
+      </g>
+      <path d="M0,0 L-40,-30" class="stroke"/>
+      <path d="M-40,-30 l60,-40" class="stroke"/>
+      <path d="M420,0 l40,-30" class="stroke"/>
+      <path d="M460,-30 l-60,-40" class="stroke"/>
+      <path d="M170,-120 L290,0" class="stroke"/>
+      <path d="M260,-20 L300,-220" class="stroke"/>
+      <g fill="#e11d2e">
+        <path d="M160,-130 L260,-20 L0,0 L160,-130 Z"/>
+        <path d="M170,-120 L260,-20 L420,0 L260,-20 Z"/>
+        <rect x="280" y="-210" width="30" height="15"/>
+      </g>
+    </g>
+
+    <!-- Rice cooker / pressure cooker (left) -->
+    <g transform="translate(-460,40)">
+      <rect x="-120" y="-140" rx="28" ry="28" width="240" height="200" fill="#eceff3" stroke="#3b3b3b" stroke-width="10"/>
+      <rect x="-80" y="-120" rx="10" ry="10" width="80" height="90" fill="#1f2937"/>
+      <rect x="-60" y="-100" width="40" height="15" rx="4" fill="#4b5563"/>
+      <rect x="-55" y="-75" width="30" height="12" rx="4" fill="#9ca3af"/>
+      <rect x="-60" y="-50" width="40" height="15" rx="4" fill="#4b5563"/>
+      <rect x="-60" y="60" width="120" height="25" rx="12" fill="#1f2937"/>
+      <rect x="-140" y="-160" rx="40" ry="40" width="280" height="60" fill="#1f2937"/>
+    </g>
+
+    <!-- Fan (on top of cooker) -->
+    <g transform="translate(-460,-120)">
+      <circle cx="0" cy="0" r="80" fill="none" stroke="#1b4f38" stroke-width="8"/>
+      <circle cx="0" cy="0" r="12" fill="#1b4f38"/>
+      <path d="M0,8 l60,24 q10,-44 -60,-68 z" fill="#8bd8b3"/>
+      <path d="M-10,-6 l-48,-48 q-30,34 30,70 z" fill="#bfead7"/>
+      <rect x="-20" y="90" width="40" height="70" rx="10" fill="#1b4f38"/>
+      <rect x="-60" y="160" width="120" height="20" rx="8" fill="#1b4f38"/>
+    </g>
+
+    <!-- Air fryer (front-left small) -->
+    <g transform="translate(-380,210)">
+      <rect x="-70" y="-90" rx="30" ry="30" width="140" height="120" fill="#111827"/>
+      <rect x="-46" y="-64" rx="10" ry="10" width="92" height="60" fill="#374151"/>
+      <circle cx="0" cy="40" r="12" fill="#10b981"/>
+    </g>
+
+    <!-- Blender (front-right) -->
+    <g transform="translate(250,210)">
+      <rect x="-70" y="-60" width="140" height="90" rx="16" fill="#f9d9d9" stroke="#e7bcbc" stroke-width="6"/>
+      <rect x="-50" y="-230" width="100" height="160" rx="14" fill="none" stroke="#2b2b2b" stroke-width="8"/>
+      <rect x="-40" y="-90" width="80" height="20" rx="6" fill="#e7bcbc"/>
+    </g>
+
+    <!-- Diffuser (right) -->
+    <g transform="translate(420,160)">
+      <rect x="-70" y="-120" width="140" height="160" rx="30" fill="#eaf7f0" stroke="#a5cdb9" stroke-width="6"/>
+      <rect x="-50" y="-90" width="100" height="70" rx="20" fill="#fff"/>
+      <rect x="0" y="-20" width="16" height="60" rx="8" fill="#9ec7b4"/>
+    </g>
+
+    <!-- Smartwatch (front) -->
+    <g transform="translate(60,220)">
+      <rect x="-24" y="-80" width="48" height="160" rx="12" fill="#222"/>
+      <rect x="-42" y="-120" width="84" height="80" rx="22" fill="#0b7f49"/>
+      <rect x="-30" y="-108" width="60" height="56" rx="14" fill="#fff"/>
+    </g>
+
+    <!-- Money / voucher stack -->
+    <g transform="translate(-520,220) rotate(-10)">
+      <rect x="-160" y="-50" width="160" height="90" rx="8" fill="#ffdcdc" stroke="#e49a9a"/>
+      <rect x="-140" y="-60" width="160" height="90" rx="8" fill="#ffe7e7" stroke="#e49a9a"/>
+      <rect x="-120" y="-70" width="160" height="90" rx="8" fill="#fff1f1" stroke="#e49a9a"/>
+      <text x="-75" y="-5" class="sub">Rp 500.000</text>
+    </g>
+  </g>
+</svg>
