@@ -1,7 +1,0 @@
-services:
-  - type: static
-    name: fbg-2025
-    env: static
-    buildCommand: ""
-    staticPublishPath: .
-    pullRequestPreviewsEnabled: true
