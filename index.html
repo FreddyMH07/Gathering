@@ -55,128 +55,53 @@
     </div>
   </section>
 
-  <!-- HIGHLIGHTS (v2) -->
-<section class="max-w-7xl mx-auto px-5 mt-10 grid md:grid-cols-3 gap-6">
-  <style>
-    /* Animasi halus */
-    @keyframes float {0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:translateY(0)}}
-    @keyframes shine {from{background-position:-200% 0} to{background-position:200% 0}}
-    .card { box-shadow: 0 16px 40px rgba(17, 87, 59, .08); }
-    .icon-wrap { background: linear-gradient(135deg,#e6fff1,#e8f7ff); }
-    .shine {
-      background: linear-gradient(90deg,transparent,rgba(255,255,255,.45),transparent);
-      background-size: 200% 100%; animation: shine 2.2s linear infinite;
-    }
-  </style>
-
+ <!-- HIGHLIGHTS -->
+<section class="max-w-7xl mx-auto px-5 mt-10 grid md:grid-cols-2 gap-6">
   <!-- Tujuan Acara -->
-  <div class="relative rounded-2xl bg-white p-6 card hover:-translate-y-1 transition duration-200">
-    <div class="flex items-center gap-3 mb-4">
-      <div class="icon-wrap h-12 w-12 rounded-xl grid place-items-center">
-        <!-- Leaf/People icon -->
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
-          <path d="M7 20c-2 0-4-1.8-4-4 0-3.5 3.5-6.5 7.8-6.9C13 4.6 16.4 3 20 3c0 3.6-1.6 7-6.1 9.2C13.5 16.5 10.5 20 7 20Z" stroke="#18724c" stroke-width="1.6" />
-          <circle cx="7" cy="10.5" r="1.4" fill="#18724c"/>
-        </svg>
-      </div>
-      <h3 class="font-bold text-xl">Tujuan Acara</h3>
-    </div>
+  <div class="rounded-2xl bg-white p-6 card hover:-translate-y-1 transition duration-200">
+    <h3 class="font-bold text-xl mb-4 flex items-center gap-2">
+      <span class="text-emerald-600">🌱</span> Tujuan Acara
+    </h3>
     <ul class="space-y-2 text-[15px] leading-6">
       <li>✅ Mempererat silaturahmi antar grup perusahaan.</li>
       <li>✅ Menumbuhkan apresiasi & pengertian antar generasi.</li>
       <li>✅ Menyatukan arah besar grup usaha keluarga.</li>
       <li>✅ Menikmati hidangan, hiburan & hadiah spesial.</li>
     </ul>
-
-    <!-- badges info tambahan -->
-    <div class="mt-5 flex flex-wrap gap-2 text-xs">
-      <span class="px-2.5 py-1 rounded-full bg-brand-50 text-brand-700">Networking</span>
-      <span class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700">Kekeluargaan</span>
-      <span class="px-2.5 py-1 rounded-full bg-sky-50 text-sky-700">Kolaborasi</span>
-    </div>
-
-    <!-- garis dekor -->
-    <div class="absolute left-6 right-6 -bottom-2 h-[3px] rounded-full bg-gradient-to-r from-emerald-200 via-emerald-400 to-sky-300 opacity-70"></div>
   </div>
 
   <!-- Pengisi Acara -->
-  <div class="relative rounded-2xl bg-white p-6 card hover:-translate-y-1 transition duration-200">
-    <div class="flex items-center gap-3 mb-4">
-      <div class="icon-wrap h-12 w-12 rounded-xl grid place-items-center">
-        <!-- Mic icon -->
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
-          <rect x="9" y="2" width="6" height="10" rx="3" stroke="#18724c" stroke-width="1.6"/>
-          <path d="M5 10v1a7 7 0 0 0 14 0v-1" stroke="#18724c" stroke-width="1.6"/>
-          <path d="M12 17v4" stroke="#18724c" stroke-width="1.6"/>
-          <path d="M8 21h8" stroke="#18724c" stroke-width="1.6" />
-        </svg>
-      </div>
-      <h3 class="font-bold text-xl">Pengisi Acara</h3>
-    </div>
-
-    <div class="space-y-3 text-[15px] leading-6">
-      <div class="flex items-start gap-3">
-        <span class="h-6 w-6 rounded-lg grid place-items-center bg-brand-50 text-brand-700">🎤</span>
-        <p><b>Sambutan BOD</b></p>
-      </div>
-      <div class="flex items-start gap-3">
-        <span class="h-6 w-6 rounded-lg grid place-items-center bg-brand-50 text-brand-700">🎶</span>
-        <p><b>Motivator Djoko Angklung</b></p>
-      </div>
-      <div class="flex items-start gap-3">
-        <span class="h-6 w-6 rounded-lg grid place-items-center bg-brand-50 text-brand-700">🎓</span>
-        <p><b>Talkshow & Dialog Interaktif</b> — Universitas Bunda Mulia</p>
-      </div>
-      <div class="flex items-start gap-3">
-        <span class="h-6 w-6 rounded-lg grid place-items-center bg-brand-50 text-brand-700">🎭</span>
-        <p>Panggung Kreasi • 🤝 Team Building</p>
-      </div>
-    </div>
-
-    <!-- strip animasi -->
-    <div class="mt-5 h-1.5 rounded-full shine"></div>
+  <div class="rounded-2xl bg-white p-6 card hover:-translate-y-1 transition duration-200">
+    <h3 class="font-bold text-xl mb-4 flex items-center gap-2">
+      <span class="text-emerald-600">🎤</span> Pengisi Acara
+    </h3>
+    <ul class="space-y-3 text-[15px] leading-6">
+      <li>🎤 <b>Sambutan BOD</b></li>
+      <li>🎶 <b>Motivator Djoko Angklung</b></li>
+      <li>🎓 <b>Talkshow & Dialog Interaktif</b> — Universitas Bunda Mulia</li>
+      <li>🎭 Panggung Kreasi • 🤝 Team Building</li>
+    </ul>
   </div>
+</section>
 
-  <!-- Tombol Aksi -->
-  <div class="relative rounded-2xl bg-gradient-to-br from-white to-emerald-50 p-6 card hover:-translate-y-1 transition duration-200">
-    <div class="flex items-center gap-3 mb-4">
-      <div class="icon-wrap h-12 w-12 rounded-xl grid place-items-center">
-        <!-- Bolt/Action icon -->
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
-          <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8Z" stroke="#18724c" stroke-width="1.6" fill="none"/>
-        </svg>
-      </div>
-      <h3 class="font-bold text-xl">Tombol Aksi</h3>
-    </div>
+<!-- ACTION BUTTONS -->
+<section class="max-w-7xl mx-auto px-5 mt-10 text-center">
+  <h3 class="font-bold text-xl mb-5">Aksi</h3>
+  <div class="flex flex-wrap justify-center gap-4">
+    <a id="rsvp" href="https://forms.gle/LINK_GOOGLE_FORM_MU" target="_blank"
+       class="px-6 py-3 rounded-xl bg-brand-600 text-white font-semibold hover:bg-brand-700 transition duration-150">
+       Isi RSVP
+    </a>
 
-    <div class="flex flex-wrap gap-3">
-      <a id="rsvp" href="https://forms.gle/LINK_GOOGLE_FORM_MU" target="_blank"
-         class="px-5 py-3 rounded-xl bg-brand-600 text-white font-semibold hover:bg-brand-700 transition duration-150">
-         Isi RSVP
-      </a>
+    <a href="https://www.google.com/maps/search/?api=1&query=ARCICI+Sport+Center+Jakarta" target="_blank"
+       class="px-6 py-3 rounded-xl border text-slate-700 hover:bg-white transition duration-150">
+       Buka Maps
+    </a>
 
-      <a href="https://www.google.com/maps/search/?api=1&query=ARCICI+Sport+Center+Jakarta" target="_blank"
-         class="px-5 py-3 rounded-xl border text-slate-700 hover:bg-white transition duration-150">
-         Buka Maps
-      </a>
-
-      <button onclick="downloadFlyer()"
-         class="px-5 py-3 rounded-xl border border-brand-600 text-brand-700 hover:bg-white transition duration-150">
-         Download E-Flyer
-      </button>
-    </div>
-
-    <!-- info chip waktu & lokasi -->
-    <div class="mt-5 grid sm:grid-cols-2 gap-3 text-xs">
-      <div class="flex items-center gap-2 bg-white/70 backdrop-blur rounded-lg px-3 py-2">
-        <span class="h-2.5 w-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-        <span>Senin, 1 September 2025 — 08.00 WIB</span>
-      </div>
-      <div class="flex items-center gap-2 bg-white/70 backdrop-blur rounded-lg px-3 py-2">
-        <span class="h-2.5 w-2.5 rounded-full bg-sky-500 animate-[float_3s_ease-in-out_infinite]"></span>
-        <span>ARCICI Sport Center, Jakarta Pusat</span>
-      </div>
-    </div>
+    <button onclick="downloadFlyer()"
+       class="px-6 py-3 rounded-xl border border-brand-600 text-brand-700 hover:bg-white transition duration-150">
+       Download E-Flyer
+    </button>
   </div>
 </section>
 
